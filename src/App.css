@@ -1,0 +1,70 @@
+.App {
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+  width: 100%;
+  
+}
+
+nav {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+display: flex;
+align-items: center;
+justify-content: space-around;
+background-color:  rgba(236, 236, 236, 0.192);
+padding: 10px;
+
+
+}
+
+.title {
+top: 1;
+left: 0;
+background-image: url('./public/Clr.png');
+background-size: contain;
+background-repeat: no-repeat; 
+position: fixed;
+display: fixed;
+margin: 1rem;
+justify-content: space-evenly;
+font-size: 60px; 
+text-decoration: none;
+color: transparent;
+z-index: 1;
+
+}
+
+
+
+.search-bar-container {
+width: 30%;
+margin: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+min-width: 200px;
+}
+
+.user {
+  right: 0;
+  background-image: url('./public/A.png');
+  background-size: contain;
+  background-repeat: no-repeat; 
+  position: fixed;
+  display: fixed;
+  margin: 1rem;
+  justify-content: space-evenly;
+  font-size: 60px; 
+  text-decoration: none;
+  color: transparent;
+  z-index: 1;
+  
+  }
+
+
+
+
+
+
